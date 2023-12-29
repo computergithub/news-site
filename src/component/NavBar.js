@@ -13,9 +13,6 @@ export class NavBar extends Component {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <Link className="nav-link active" aria-current="page" to="#">Home</Link>
-              </li>
-              <li className="nav-item">
                 <Link className="nav-link" to="/sports">Sports</Link></li>
               <li className="nav-item">
                 <Link className="nav-link" to="/business">Business</Link></li>
